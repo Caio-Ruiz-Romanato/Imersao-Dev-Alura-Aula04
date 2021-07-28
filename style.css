@@ -1,0 +1,95 @@
+/* Importando fots do google fonts */
+@import url("https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap");
+
+/* Reset da pré-configuração do navegador */
+
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+}
+
+/* Configuração do corpo da pagina */
+body {
+  font-family: "New Tegomin", sans-serif;
+  background-image: url("https://i.postimg.cc/wMNpLH0B/cinema-2093264-1280-1-1-1.jpg");
+  color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  text-align: center;
+  margin: 0 0 1rem;
+}
+
+.container {
+  text-align: center;
+  padding: 1rem;
+  justify-content: center;
+  display: flex;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  color: #ffffff;
+  display: inline-block;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+a:hover {
+  transform: scale(1.1);
+  transition: all;
+}
+
+input {
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  width: 18%;
+  border-radius: 5px;
+  outline: none;
+}
+
+.Button {
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+#listaFilmes img {
+  margin: 10px;
+}
+
+.form-wrapper {
+  margin: 0 0 15px;
+}
+
+.form-wrapper input {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
+.form-wrapper button {
+  border: 0;
+  color: #ffffff;
+  background: #0761e7;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-wrapper button:hover {
+  opacity: 0.8;
+}
